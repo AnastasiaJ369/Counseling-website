@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        cursive: ['"Lucida Sans Unicode"', 'Lucida Grande'],
+      },
+    },
   },
   plugins: [],
 }

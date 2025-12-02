@@ -19,7 +19,7 @@ const Homepage = () => {
         Located at 123 Main Street, Daytona Beach, FL 32117, we welcome you to visit our offices or, click the button
         below or call at 123-456-7890 to schedule an appointment. We look forward to hearing from you!
       </p2>
-      <button className='mt-6 border-black rounded-md border-3 bg-orange-300 w-64 h-16'>Schedule an Appointment</button>
+      <button className='mt-6 border-black rounded-md border-3 bg-orange-300 w-64 h-16 font-bold'>Schedule an Appointment</button>
       <iframe className='mt-6' width="600" height="450"
         style={{border: 0}}
         loading="lazy"

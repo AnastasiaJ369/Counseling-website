@@ -12,6 +12,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/about" element={<Aboutme />} />
+        {/* Add other routes here as needed */}
       </Routes>
       <Footer />
     </Router>

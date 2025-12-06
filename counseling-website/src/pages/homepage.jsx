@@ -7,20 +7,30 @@ const Homepage = () => {
     <div className='min-h-96 max-w-1xl flex flex-col items-center justify-center bg-amber-100 text-black p-4 mt-8 
     mr-10 ml-10'>
       <img src={officeImage} alt='Office Building' className='w-100 h-80 object-cover'/>
-      <h1 className='text-2xl font-cursive font-bold mt-3 mb-3'>
+      <h1 className='text-2xl font-cursive italic font-bold mt-3 mb-3'>
         Welcome to Head and Heart Healing
       </h1>
-      <p className='text-1xl font-cursive'>
+      <p className='text-1xl font-cursive italic'>
         At Head and Heart Healing, we are dedicated to providing personalized and compassionate counseling services
         tailored to the specific needs of each individual or group. Whether it's support for anxiety, depressison,
         marriage or family counseling, our experienced therapists are here to help you along your journey to improve
         your mental and emotional well-being.
       </p>
-      <p2 className='text-1xl font-cursive mt-3'>
+      <p2 className='text-1xl font-cursive italic mt-3'>
         Located at 123 Main Street, Daytona Beach, FL 32117, we welcome you to visit our offices or, click the button
         below or call at 123-456-7890 to schedule an appointment. We look forward to hearing from you!
       </p2>
       {button()}
+      <p3 className='text-1xl font-cursive italic bold mt-6 items-center'>
+        Office Hours
+          <div>Monday:9am - 5pm</div>
+          <div>Tuesday: 9am - 5pm</div>
+          <div>Wednesday: 9am - 5pm</div>
+          <div>Thursday: 9am - 5pm</div>  
+          <div>Friday: Closed</div>
+          <div>Saturday: 9am - 1pm</div>
+          <div>Sunday: Closed</div>
+      </p3>
       <iframe className='mt-6' width="600" height="450"
         style={{border: 0}}
         loading="lazy"

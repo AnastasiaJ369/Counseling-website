@@ -4,6 +4,7 @@ import Navbar from './components/navbar.jsx'
 import Homepage from './pages/homepage.jsx'
 import Aboutme from './pages/aboutme.jsx'
 import Footer from './components/footer.jsx'
+import Services from './pages/services.jsx'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/about" element={<Aboutme />} />
+        <Route path="/services" element={<Services />} />
         {/* Add other routes here as needed */}
       </Routes>
       <Footer />

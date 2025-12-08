@@ -11,7 +11,7 @@ const Services = () => {
         </div>
         <div className='min-h-36 max-w-1xl flex flex-col items-center justify-center bg-amber-100 text-black p-4 mt-8 
     mr-10 ml-10'>
-            <div className='text-xl text-color-black italic mb-4'>
+            <div className='text-xl text-color-black italic mb-4 items-center'>
                 Here at Head and Heart Healing, we offer a variety of therapy approaches to meet your unique needs with
                 primary focuses on Cognitive Behavioral Therapy(CBT), Dialectal Behavioral Therapy(DBT), Person-Centered
                 Therapy(PCT), and Emotion Focused Therapy. We offer individual therapy, couples therapy, and family therapy
@@ -22,7 +22,7 @@ const Services = () => {
         <div className='min-h-40 max-w-1xl flex flex-col items-center justify-center bg-amber-200 text-black p-4 mt-8 
     mr-10 ml-10 mb-10'>
             <div className='px-1 w-full flex justify-between items-center mx-auto max-w-4xl'>
-                <img src={depressionImage} alt='Depression' className='flex float-left mt-18 mr-20 -ml-20 justify-center w-72 h-72 aspect-square object-cover rounded-full border-3'/>
+                <img src={depressionImage} alt='Depression' className='flex float-left mt-18 mr-20 justify-center w-72 h-72 aspect-square object-cover rounded-full border-3'/>
                 <div className='text-xl text-color-black bold mb-4'>
                     Individual therapy sessions are designed to help you work through your personal challenges and achieve
                     your mental and wellness goals. Whether you're struggling with anxiety, depression or trauma, our
@@ -38,13 +38,13 @@ const Services = () => {
                     and strengthen your relationship. Our therapists will work with you to identify patterns and behaviors that may
                     be impacting your relationship and provide tools and strategies to help you build a stronger, healthier connection.
                 </div>
-                <img src={couplesImage} alt='Couples' className='flex float-right mt-18 ml-20 -mr-20 justify-center w-72 h-72 aspect-square object-cover rounded-full border-3'/>
+                <img src={couplesImage} alt='Couples' className='flex float-right mt-18 ml-20 justify-center w-72 h-72 aspect-square object-cover rounded-full border-3'/>
             </div>
         </div>
         <div className='min-h-40 max-w-1xl flex flex-col items-center justify-center bg-amber-200 text-black p-4 mt-8 
     mr-10 ml-10'>
             <div className='px-1 w-full flex justify-between items-center mx-auto max-w-4xl'>
-                <img src={familyImage} alt='Family' className='flex float-left mt-18 mr-20 -ml-20 justify-center w-72 h-72 aspect-square object-cover rounded-full border-3'/>
+                <img src={familyImage} alt='Family' className='flex float-left mt-18 mr-20 justify-center w-72 h-72 aspect-square object-cover rounded-full border-3'/>
                 <div className='text-xl text-color-black bold mb-4'>
                     Family therapy sessions are designed to help families improve communication, resolve conflicts, and strengthen
                     relationships. Our therapists will work with you to identify patterns and dynamics that may be impacting your family

@@ -13,7 +13,7 @@ const Aboutme = () => {
         {/* To place text next to image: flex justify-between items-center mx-auto max-w-4xl */}
         <div className='px-1 w-full flex justify-between items-center mx-auto max-w-4xl'>
           {/* For a square image, change to circular: aspect-square, object-cover, rounded-full border-3*/}
-          <img src={headshotImage} alt='Example Headshot' className='flex float-left mt-18 mr-20 -ml-20 justify-center w-72 h-72 aspect-square object-cover rounded-full border-3'/>
+          <img src={headshotImage} alt='Example Headshot' className='flex float-left mt-18 mr-20 justify-center w-72 h-72 aspect-square object-cover rounded-full border-3'/>
           <p1 className= 'text-lg float-right mt-24 justify-center mb-24'>
             Hello! Welcome to Head and Heart Healing! My name is Jane Doe, a licensed clinical social worker (LCSW) with over 10 years of
             experience in providing counseling services! I got my Master's degree in Social Work from the University of Central Florida and

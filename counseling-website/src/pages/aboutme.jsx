@@ -5,10 +5,10 @@ import headshotImage from '../assets/Headshot.jpeg'
 const Aboutme = () => {
   return (
     <div>
-      <div className='text-6xl text-black font-cursive font-bold italic mt-8 mb-8 flex justify-center bg-purple-100 animate-fade-in'>
+      <div className='text-6xl text-black font-cursive font-bold italic mt-8 mb-8 flex justify-center animate-fade-in'>
             About Me
       </div>
-      <div className='min-h-96 max-w-1xl flex flex-col items-center justify-center bg-purple-400 text-black p-4 mt-8 
+      <div className='min-h-96 max-w-1xl flex flex-col items-center justify-center bg-purple-100 text-black p-4 mt-8 
       mr-10 ml-10 mb-12 animate-fade-in'>
         {/* To place text next to image: flex justify-between items-center mx-auto max-w-4xl */}
         <div className='px-1 w-full flex justify-between items-center mx-auto max-w-4xl'>

@@ -25,16 +25,16 @@ const Homepage = () => {
     </div>
     <div className='flex flex-col items-center justify-center mt-6 mb-6'>
       {button()}
-      <p3 className='bg-purple-100 flex justify-center items-center text-1xl font-cursive italic bold mt-6 items-center'>
+      <div className='flex flex-col justify-center items-center text-1xl font-cursive italic bold mt-6 items-center'>
         Office Hours
-          <div>Monday:9am - 5pm</div>
-          <div>Tuesday: 9am - 5pm</div>
-          <div>Wednesday: 9am - 5pm</div>
-          <div>Thursday: 9am - 5pm</div>  
-          <div>Friday: Closed</div>
-          <div>Saturday: 9am - 1pm</div>
-          <div>Sunday: Closed</div>
-      </p3>
+          <p>Monday: 9am - 5pm</p>
+          <p>Tuesday: 9am - 5pm</p>
+          <p>Wednesday: 9am - 5pm</p>
+          <p>Thursday: 9am - 5pm</p>  
+          <p>Friday: Closed</p>
+          <p>Saturday: 9am - 1pm</p>
+          <p>Sunday: Closed</p>
+      </div>
     </div>
     </div>
   )

@@ -3,7 +3,7 @@ import contactImage from '../assets/contact_us.jpg'
 
 const Contact = () => {
   return (
-    <div class="bg-purple-100 py-8 sm:py-16 lg:py-24">
+    <div class="bg-purple-100 py-8 sm:py-16 lg:py-24 animate-fade-in">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       {/*Title*/}
       <div class="relative mx-auto mb-12 w-fit sm:mb-16 lg:mb-24">

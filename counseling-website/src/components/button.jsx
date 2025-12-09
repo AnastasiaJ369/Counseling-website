@@ -9,7 +9,7 @@ const button = () => {
     }
   return (
     <>
-        <button onClick={() => gotToNewPage()} className='mt-6 border-black rounded-md border-3 bg-orange-300 w-64 h-16 font-bold'>Schedule an Appointment</button>
+        <button onClick={() => gotToNewPage()} className='border-black rounded-md border-3 bg-purple-400 w-64 h-16 font-bold'>Schedule an Appointment</button>
     </>
   )
 }

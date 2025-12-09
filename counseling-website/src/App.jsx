@@ -6,6 +6,7 @@ import Aboutme from './pages/aboutme.jsx'
 import Footer from './components/footer.jsx'
 import Services from './pages/services.jsx'
 import Bookings from './pages/bookings.jsx'
+import Contact from './pages/contact.jsx'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/about" element={<Aboutme />} />
         <Route path="/services" element={<Services />} />
         <Route path="/booking" element={<Bookings />} />
+        <Route path="/contact" element={<Contact />} />
         {/* Add other routes here as needed */}
       </Routes>
       <Footer />

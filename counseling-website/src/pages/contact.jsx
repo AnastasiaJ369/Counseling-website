@@ -84,7 +84,7 @@ const Contact = () => {
       </div>
     </div>
     <div className='flex justify-center items-center'>
-        <iframe className='mt-6' width="600" height="450" 
+        <iframe className='mt-24' width="600" height="450" 
             style={{border: 0}}
             loading="lazy"
             allowFullScreen

@@ -3,28 +3,26 @@ import contactImage from '../assets/contact_us.jpg'
 
 const Contact = () => {
   return (
-    <div class="bg-purple-100 py-8 sm:py-16 lg:py-24 animate-fade-in">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="bg-purple-100 py-8 animate-fade-in">
+    <div class="mx-auto max-w-7xl px-4">
       {/*Title*/}
-      <div class="relative mx-auto mb-12 w-fit sm:mb-16 lg:mb-24">
-        <h2 class="text-base-content text-2xl font-bold md:text-3xl lg:text-4xl">Contact Us</h2>
-        <span
-          class="from-primary/40 to-primary/5 absolute start-0 top-9 h-1 w-full rounded-full bg-gradient-to-r"
-        ></span>
+      <div class="relative mx-auto mb-24 w-fit">
+        <h2 class="text-4xl font-bold">Contact Us</h2>
       </div>
 
+      {/*allows for grid and image to be side by side*/}
       <div class="grid items-center gap-12 lg:grid-cols-2">
-        {/* Image Section */}
+        {/* Contact Image*/}
         <img
           src={contactImage}
           alt="Contact Photo"
           class="size-full"
         />
 
-        {/* Contact Info Section */}
+        {/* Contact Info*/}
         <div>
-          {/* Section Title */}
-          <h3 class="text-base-content mb-6 text-2xl font-semibold">We look forward to hearing from you!</h3>
+          {/* Header */}
+          <h3 class="flex mb-6 text-2xl font-semibold justify-center items-center">We look forward to hearing from you!</h3>
 
           {/* Contact Info Grid */}
           <div class="grid gap-6 md:grid-cols-2">

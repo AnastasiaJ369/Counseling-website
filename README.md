@@ -6,4 +6,6 @@ on the homepage. Also included is an embedded link that presents a google maps o
 
 All images used in this demo were obtained from google, however, they are easily replaceable should someone want to use this website as their own.
 
-As of now, the homepage and about me page are finished and next session will be focused on the services and modalities section of the site. 
+As of now, the homepage, about me page, services and conttact us are just about finished aside from minor changes. The next session will be mainly focused on getting the bookings page set up.
+
+As I can continue my education, further changes will be made tothe project in the future!

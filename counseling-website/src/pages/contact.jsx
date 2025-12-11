@@ -27,56 +27,37 @@ const Contact = () => {
           {/* Contact Info Grid */}
           <div class="grid gap-6 md:grid-cols-2">
             {/* Office Hours */}
-            <div class="card shadow-none">
               <div class="card-body items-center gap-3">
-                <div class="avatar avatar-placeholder">
-                  <div class="border-primary/20 text-primary w-9 rounded-full border">
-                    <span class="icon-[tabler--clock] text-primary size-6"></span>
-                  </div>
-                </div>
                 <h4 class="text-base-content text-lg font-medium">Office Hours</h4>
                 <div class="text-center">
-                  <p class="text-base-content/80">Monday-Thursday</p>
-                  <p class="text-base-content/80">8:00 am to 5:00 pm</p>
-                  <p class="text-base-content/80">Saturday</p>
-                  <p class="text-base-content/80">9:00 am to 1:00 pm</p>
-                  <p class="text-base-content/80">Friday & Sunday</p>
-                  <p class="text-base-content/80">Closed</p>
+                  <p>Monday-Thursday</p>
+                  <p>8:00 am to 5:00 pm</p>
+                  <p>Saturday</p>
+                  <p>9:00 am to 1:00 pm</p>
+                  <p>Friday & Sunday</p>
+                  <p>Closed</p>
                 </div>
-              </div>
             </div>
 
             {/* Our Address */}
-            <div class="card shadow-none">
               <div class="card-body items-center gap-3">
-                <div class="avatar avatar-placeholder">
-                  <div class="border-primary/20 text-primary w-9 rounded-full border">
-                    <span class="icon-[tabler--map-pin] text-primary size-6"></span>
-                  </div>
-                </div>
                 <h4 class="text-base-content text-lg font-medium">Our Address</h4>
-                <address class="text-base-content/80 text-center not-italic">
-                  123 Main St,Daytona Beach, FL
+                <address class="text-center not-italic">
+                  123 Main St, Daytona Beach, FL
                   <br />
                   32117, USA
                 </address>
               </div>
-            </div>
 
             {/* Get in Touch */}
-            <div class="card shadow-none">
               <div class="card-body items-center gap-3">
-                <div class="avatar avatar-placeholder">
-                  <div class="border-primary/20 text-primary w-9 rounded-full border">
-                    <span class="icon-[tabler--phone] text-primary size-6"></span>
-                  </div>
-                </div>
                 <h4 class="text-base-content text-lg font-medium">Get in Touch</h4>
                 <div class="text-center">
-                  <p class="text-base-content/80">+1-123-456-7890</p>
+                  <p>Phone: +1-123-456-7890</p>
+                  <p>Fax: +1-098-765-4321</p>
+                  <p>Email: example.info@gmail.com</p>
                 </div>
               </div>
-            </div>
           </div>
         </div>
       </div>

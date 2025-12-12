@@ -6,6 +6,4 @@ on the homepage. Also included is an embedded link that presents a google maps o
 
 All images used in this demo were obtained from google, however, they are easily replaceable should someone want to use this website as their own.
 
-As of now, the homepage, about me page, services and conttact us are just about finished aside from minor changes. The next session will be mainly focused on getting the bookings page set up.
-
-As I can continue my education, further changes will be made tothe project in the future!
+As of now, the intial template of the site is complete with complete pages, animations, and a contact form for potential Bookings. Submitting the contact form presents with a message 'Thank you for reaching out! We'll be in touch soon!' While I can continue my education, further changes will be made to the project in the future!

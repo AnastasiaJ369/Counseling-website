@@ -5,11 +5,11 @@ import familyImage from '../assets/family.jpg'
 
 const Services = () => {
   return (
-    <div>
-        <div className='text-6xl text-black font-cursive font-bold italic mt-8 mb-8 flex justify-center animate-fade-in'>
+    <div className='bg-purple-100 min-h-screen'>
+        <div className='text-3xl text-black font-cursive font-bold italic pt-8 mb-8 flex justify-center animate-fade-in'>
             Services
         </div>
-        <div className='min-h-36 max-w-1xl flex flex-col items-center justify-center bg-purple-100 text-black p-4 mt-8 
+        <div className='min-h-36 max-w-1xl flex flex-col items-center justify-center bg-purple-200 text-black p-4 mt-8 
     mr-10 ml-10 animate-fade-in'>
             <div className='text-xl text-color-black italic mb-4 items-center'>
                 Here at Head and Heart Healing, we offer a variety of therapy approaches to meet your unique needs with
@@ -30,7 +30,7 @@ const Services = () => {
                 </div>
             </div>
         </div>
-        <div className='min-h-40 max-w-1xl flex flex-col items-center justify-center bg-purple-100 text-black p-4 mt-8 
+        <div className='min-h-40 max-w-1xl flex flex-col items-center justify-center bg-purple-200 text-black p-4 mt-8 
     mr-10 ml-10 animate-fade-in'>
             <div className='px-1 w-full flex justify-between items-center mx-auto max-w-4xl'>
                 <div className='text-xl text-color-black bold mb-4'>

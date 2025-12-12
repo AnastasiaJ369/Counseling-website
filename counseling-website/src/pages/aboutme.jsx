@@ -4,8 +4,8 @@ import headshotImage from '../assets/Headshot.jpeg'
 
 const Aboutme = () => {
   return (
-    <div>
-      <div className='text-6xl text-black font-cursive font-bold italic mt-8 mb-8 flex justify-center animate-fade-in'>
+    <div className='bg-purple-100 min-h-screen'>
+      <div className='text-3xl text-black font-cursive font-bold italic pt-8 mb-8 flex justify-center animate-fade-in'>
             About Me
       </div>
       <div className='min-h-96 max-w-1xl flex flex-col items-center justify-center bg-purple-100 text-black p-4 mt-8 

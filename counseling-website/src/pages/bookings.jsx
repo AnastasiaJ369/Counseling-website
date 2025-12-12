@@ -1,9 +1,22 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 const Bookings = () => {
-  return (
-    <>
-      <div className='text-6xl text-black font-cursive font-bold italic mt-8 mb-8 flex justify-center'>
+      const[formSubmitted, setFormSubmitted] = useState(false);
+
+      const handleSubmit = (e) => {
+        e.preventDefault();
+        setFormSubmitted(true);
+
+        e.target.reset();
+
+        setTimeout(() => {
+          setFormSubmitted(false);
+        }, 5000);
+    };
+
+return (
+    <div className='bg-purple-100 min-h-screen animate-fade-in'>
+      <div className='text-4xl text-black font-cursive font-bold italic pt-8 mb-8 flex justify-center'>
           Bookings
       </div>
       <div className='flex flex-col md:flex-row gap-8 p-8 max-w-6xl mx-auto bg-purple-100'>
@@ -15,6 +28,7 @@ const Bookings = () => {
             <li>Aetna</li>
             <li>Cigna</li>
             <li>Humana</li>
+            <li>Medicaid</li>
           </ul>
           <br />
           <p className='text-lg'>
@@ -37,7 +51,7 @@ const Bookings = () => {
         <div className='md:w-1/2 bg-purple-200'>
           <div className='mx-auto flex flex-col min-h-screen justify-center items-center'>
             <h1 className="text-3xl font-bold leading-tight text-black text-center">Book With Us!</h1>
-            <form className="w-2/3 md:w-1/3 space-y-8 flex flex-col">
+            <form onSubmit={handleSubmit}className="w-2/3 md:w-1/3 space-y-8 flex flex-col">
                         <div>
                             <input
                                 type="text"
@@ -77,10 +91,14 @@ const Bookings = () => {
                             Submit
                         </button>
                     </form>
+                    {formSubmitted && (
+                            <p className='text-md font-bold text-black text-center mt-4'> Thank you for reaching out! We'll
+                            be in touch shortly!</p>
+                        )}
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 

@@ -4,7 +4,7 @@ import button from '../components/button.jsx'
 
 const Homepage = () => {
   return (
-    <div className='bg-purple-100 mt-8 mb-12'>
+    <div className='bg-purple-100 pt-8 mb-12'>
       <div className='flex flex-col items-center justify-center mt-8 mb-8'>
         <img src={officeImage} alt='Office Building' className='w-100 h-80 object-cover animate-fade-in'/>
       <div className='w-10/12 flex flex-col items-center justify-center mt-6 mb-6 animate-fade-in'>
